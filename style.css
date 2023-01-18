@@ -157,7 +157,24 @@ button:hover {
   color: #1f2937;
   font-style: normal;
 }
-.signup {
+.cta {
+  max-width: 500px;
+  background-color: #3882f6;
+  border-radius: 4px;
+  border: none;
+  padding: 40px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+}
+.follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.follow:hover {
 }
 .footer {
   display: flex;
