@@ -1,14 +1,53 @@
 body {
+  display: flex;
+  /* flex: 1; */
+  margin: 0 auto;
+  flex-direction: column;
 }
-.container {
+.hero-container {
+  display: flex;
+  flex: 1;
+  background-color: #1f2937;
+  /* max-height: 1000px; */
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-.navigation {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* flex: 1; */
+}
+.links {
+  display: flex;
+  /* flex: 1; */
+  gap: 16px;
+  margin: 0px;
+  margin-right: 64px;
+  padding: 16px;
+  font-size: 18px;
+}
+
+li {
+  list-style-type: none;
+}
+.logo {
+  padding: 16px;
+  font-size: 24px;
+  color: #f9faf8;
+  margin-left: 32px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
 .left-top {
 }
 .right-top {
 }
 .card-container {
+  display: flex;
 }
 .card-header {
 }
@@ -19,4 +58,5 @@ body {
 .signup {
 }
 .footer {
+  display: flex;
 }
