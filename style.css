@@ -96,4 +96,8 @@ a {
 }
 .footer {
   display: flex;
+  background-color: #1f2937;
+  padding: 1rem;
+  color: #f9faf8;
+  justify-content: center;
 }
