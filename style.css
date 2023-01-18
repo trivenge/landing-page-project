@@ -143,6 +143,7 @@ button:hover {
 }
 .quote {
   display: flex;
+  flex: 1;
   flex-direction: column;
   color: #a9a9a9;
   font-size: 36px;
@@ -156,6 +157,7 @@ button:hover {
   align-self: flex-end;
   color: #1f2937;
   font-style: normal;
+  flex: 1;
 }
 .cta {
   max-width: 500px;
@@ -173,13 +175,44 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: #1f2937;
+  padding-top: 8px;
 }
-.follow:hover {
+.insta {
+  background-image: url(images/instahover.png);
+  cursor: pointer;
+  background-position-y: -1px;
+}
+.insta > img {
+  vertical-align: top;
+}
+.insta > img:hover {
+  opacity: 0;
+}
+.face {
+  background-image: url(images/facehover.png);
+  cursor: pointer;
+}
+.face > img {
+  vertical-align: top;
+}
+.face > img:hover {
+  opacity: 0;
+}
+.twit {
+  background-image: url(images/twithover.png);
+  cursor: pointer;
+}
+.twit > img {
+  vertical-align: top;
+}
+.twit > img:hover {
+  opacity: 0;
 }
 .footer {
   display: flex;
   background-color: #1f2937;
-  padding: 1rem;
+  padding-top: 4px;
   color: #f9faf8;
   justify-content: center;
 }
