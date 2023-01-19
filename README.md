@@ -21,6 +21,3 @@ https://www.fulltimefilmmaker.com/premiere-pro-editing
 
 Image used for business card is credited to DPReview: 
 https://www.dpreview.com/articles/6428199442/it-should-cost-the-three-main-ways-you-re-wrong-about-camera-prices
-
-Follow images were edited in photoshop to a blue and white color. credited to:
-https://www.freepik.com/free-psd/photography-workshop-banner-template_10102079.htm#query=camera&position=39&from_view=keyword
