@@ -21,3 +21,11 @@ https://www.fulltimefilmmaker.com/premiere-pro-editing
 
 Image used for business card is credited to DPReview: 
 https://www.dpreview.com/articles/6428199442/it-should-cost-the-three-main-ways-you-re-wrong-about-camera-prices
+
+
+
+
+Notes:
+Unable to get the social media icon images to correctly scale size wise, may need to completely redo the icons to a lower size to compensate. Look into this in the future to better understand why this did not work as intended.
+
+This landing page used my current knowledge, some good googling, and some interesting new knowledge accrual in drop-shadow, box-shadow, hover and shadows, and hover-based image swap of different colored social media icons. The entire design needs to be further assessed as it does not correctly flex shrink. May be relating to the body and upper level HTML containers not needing display flex. Likely more simple than I made it.
