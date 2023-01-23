@@ -156,7 +156,6 @@ button:hover {
   height: 110px;
   width: 220px;
   object-fit: fill;
-  border-radius: 3%;
   vertical-align: top;
   filter: drop-shadow(1px 2px 8px var(--shadow-color));
 }
@@ -188,24 +187,18 @@ button:hover {
   margin: 0px;
 }
 .cta {
-  /* max-width: 300px; */
   display: flex;
-  /* flex-grow: 0; */
-  /* flex: 1; */
   background-color: #3882f6;
   border-radius: 4px;
   border: none;
-  padding: 50px 445px;
-  /* margin-right: 25px; */
+  padding: 50px 50px;
   align-items: center;
   gap: 48px;
 }
 .action {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   padding: 48px 0px 48px 0px;
-  /* flex: 1; */
 }
 .ctabutton {
   background-color: #3882f6;
@@ -217,6 +210,19 @@ button:hover {
   font-weight: bold;
   padding: 4px 20px 4px 20px;
   text-align: center;
+}
+.ctatext {
+  font-weight: bolder;
+  color: #f9faf8;
+  font-size: 24px;
+}
+.ctatextlower {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.cta-left {
+  display: flex;
+  flex-direction: column;
 }
 .ctabutton:hover {
   box-shadow: 0px 5px 5px 0px #1f2937;
