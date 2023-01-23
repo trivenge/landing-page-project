@@ -132,10 +132,7 @@ button:hover {
 .card-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 48px;
-  justify-content: center;
-  align-content: center;
 }
 .card-header {
   font-size: 36px;
@@ -143,38 +140,34 @@ button:hover {
   color: #1f2937;
   margin: none;
   padding-bottom: 48px;
-  flex-wrap: nowrap;
+  align-self: center;
 }
 .cards {
   display: flex;
   gap: 16px;
-  padding-left: 48px;
-  padding-right: 48px;
   --shadow-color: #1f2937;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .card-single {
-  border: 2px solid #3882f6;
-  border-radius: 10px;
-  /* padding: 90px 115px 90px 115px; */
-  filter: drop-shadow(1px 2px 8px var(--shadow-color));
-  /* object-fit: scale-down; */
+  border: 3px solid #3882f6;
+  border-radius: 3%;
 }
 .card-img {
   height: 110px;
-  width: 200px;
-  object-fit: scale-down;
-  border-radius: 8%;
-  /* vertical-align: top; */
+  width: 220px;
+  object-fit: fill;
+  border-radius: 3%;
+  vertical-align: top;
+  filter: drop-shadow(1px 2px 8px var(--shadow-color));
 }
-.card-text {
+.text {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 12px;
-  /* justify-items: center; */
+  align-self: center;
+  padding-right: 100px;
+  padding-left: 48px;
+  gap: 50px;
 }
+
 .quote {
   display: flex;
   flex: 1;
