@@ -22,7 +22,7 @@ https://www.fulltimefilmmaker.com/premiere-pro-editing
 Image used for business card is credited to DPReview: 
 https://www.dpreview.com/articles/6428199442/it-should-cost-the-three-main-ways-you-re-wrong-about-camera-prices
 
-
+Card images used credited to https://www.fulltimefilmmaker.com/premium
 
 
 Notes:
